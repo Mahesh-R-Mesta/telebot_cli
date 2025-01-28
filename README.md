@@ -4,9 +4,9 @@
 
 <h6> Installation </h6>
 
-To install cli tool just run this command
+To install cli go inside telebot_cli tool just run this command 
 `
- pip install setup.py
+ pip install .
 `
 
 To install cli for exprement or for further modification use
@@ -18,10 +18,10 @@ To install cli for exprement or for further modification use
 
 
 `
- telebot-cli set-token "telegram-bot-token"
+ telebot-cli setting --set-token "telegram-bot-token"
 `
 
-`telebot-cli set-chatid "user-chat-id"`
+`telebot-cli setting --set-chatid "user-chat-id"`
 
 
 <h6> Usage </h6>
