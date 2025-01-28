@@ -29,7 +29,7 @@ To install cli for exprement or for further modification use
 Run cli-tool at current directory where file located
 
 `
- telebot -sendfile filename
+ telebot-cli sendfile -f "file-name"
 `
 
 
