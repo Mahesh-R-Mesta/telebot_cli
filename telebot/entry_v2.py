@@ -7,7 +7,7 @@ import argparse
 import asyncio
 
 
-#TELETOKEN="5166706434:AAF0g1LbCG-xTBBG0B9LQHSmblf1lgnRpuo"
+
 
 
 def get_env():
