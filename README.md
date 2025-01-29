@@ -5,55 +5,57 @@
 <h6> Installation </h6>
 
 To install cli go inside telebot_cli tool just run this command 
-`
+```bash
  pip install .
-`
+```
 
 To install cli for exprement or for further modification use
-`
+```bash
  pip install -e .
-`
+```
 
 <h6> Setup </h6>
 
 
-`
+```bash
  telebot-cli setting --set-token "telegram-bot-token"
-`
+```
 
-`telebot-cli setting --set-chatid "user-chat-id"`
+```bash
+telebot-cli setting --set-chatid "user-chat-id"`
+```
 
 
 <h6> Usage </h6>
 
 Run cli-tool at current directory where file located
 
-`
+```bash
  telebot-cli sendfile -f "file-name"
-`
+```
 
 
 #Usage in github actions
 
-1) 📦 Cloning telebot-cli
+1) 📦 Cloning telebot-cli<br/>
 
-yml`
+```yml
       - name: 📦 Cloning telebot-cli
         run: git clone https://github.com/Mahesh-R-Mesta/telebot_cli.git
-`
-2) 📦 Installing telebot-cli
+```
+2) 📦 Installing telebot-cli<br/>
 
-yml`
+```yml
       - name: 📦 Installing telebot-cli
         run: |
           cd telebot_cli
           pip install .
           cd ..
           rm -r telebot_cli
-`
-3) Send file through telegram bot
+```
+3) Send file through telegram bot<br/>
 
-yml`
+```yml
       - name: Send file through telegram bot
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
@@ -63,4 +65,4 @@ yml`
           telebot-cli setting --set-token "$TELEGRAM_TOKEN"
           telebot-cli setting --set-chatid "$TELEGRAM_CHAT_ID"
           telebot-cli sendfile -f "app-release.apk"
-`
+```
