@@ -1,7 +1,7 @@
 
 <h2>Telegram-cli</h2>
 
-This project uses python telegram bot api to share files/documents and messages directly to your telegram bot group
+This project uses python telegram bot api. by using command-line you can share files/documents and messages directly to your telegram bot group or can be used to import to your python code
 
 
 <h6> Installation </h6>
