@@ -1,6 +1,8 @@
 
 <h2>Telegram-cli</h2>
 
+This project uses python telegram bot api to share files/documents and messages directly to your telegram bot group
+
 
 <h6> Installation </h6>
 
